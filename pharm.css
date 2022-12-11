@@ -6,7 +6,7 @@
     width: 100%;
     background: linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(./image/health\ care2.jpg);
     background-position: center;
-    background-size: cover;
+    background-size:cover;
     height: 109vh;
 }
 
@@ -35,20 +35,22 @@
     float: left;
     height: 70px;
 }
-ul{
+.navbar ul{
     float: left;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-ul li{
+.navbar ul li{
     list-style: none;
+    font-size: 16px;
+    display: inline-block;
+    position: relative;
     margin-left: 62px;
     margin-top: 27px;
-    font-size: 14px;
 }
 
-ul li a{
+.navbar ul li a{
     text-decoration: none;
     color:white;
     font-family: Arial;
@@ -90,7 +92,8 @@ ul li a:hover{
     margin-top: 13px;
     color: white;
     font-size: 15px;
-    border-bottom-right-radius: 10px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
 }
 
 .btn:focus{
@@ -151,4 +154,116 @@ hr{
 
 .cn:hover{
     background-color:white;
+}
+
+.hero span{
+    color:#009688;
+    font-size: 60px;
+}
+
+.form{
+    width: 250px;
+    height: 380px;
+    background: (to top,rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    position: absolute;
+    top: -20px;
+    left: 870px;
+    border-radius: 10px;
+    padding: 25px;
+    border: 1px solid rgb(141, 139, 139);
+}
+
+.form h2{
+    width:230px;
+    font-family:sans-serif;
+    text-align: center;
+    color: black;
+    font-size: 22px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+
+.form input{
+    width: 240px;
+    height: 35px;
+    background:transparent;
+    border-bottom: 1px solid #009688;
+    border-top:none;
+    border-right:none;
+    border-left: none;
+    color:white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family:sans-serif;
+}
+
+.form:focus{
+    outline: none;
+}
+
+::placeholder{
+    color: white;
+    font-family: Arial;
+}
+
+.bton{
+width: 240px;
+height: 40px;
+background: #009688;
+border: none;
+margin-top: 30px;
+font-size: 18px;
+border-radius: 10px;
+cursor: pointer;
+color:white;
+transition: 0.3s ease;
+}
+
+.bton:hover{
+    background: white;
+    color:#009688;
+}
+
+.bton a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.form .link{
+    font-family: 'Times New Roman', Times, serif;
+    font-size:18px ;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.form .link a{
+    text-decoration: none;
+    color: #009688;
+}
+
+.log{
+    padding-top:15px;
+    padding-bottom:10px ;
+    text-align: center;
+}
+
+.social-icon a{
+    text-decoration: none;
+    color:white;
+
+}
+
+.social-icon i{
+    color: white;
+    font-size: 25px;
+    padding-left: 20px;
+    padding-top: 5px;
+}
+
+span{
+    color: white;
 }
